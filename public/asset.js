@@ -15,6 +15,14 @@ import restful from './RESTful.png';
 import post_1 from './post_1.png';
 import post_2 from './post_2.png';
 import post_3 from './post_3.png';
+import post_4 from './post_4.png';
+import post_5 from './post_5.png';
+import loginPage from './loginPage.jpg';
+import register from './register.png';
+import post_6 from './post_6.png';
+import post_7 from './post_7.png';
+import put_1 from './put_1.png';
+import put_2 from './put_2.png';
 
 export const asset = {
     fetch_1,
@@ -33,7 +41,15 @@ export const asset = {
     restful,
     post_1,
     post_2,
-    post_3
+    post_3,
+    post_4,
+    post_5,
+    loginPage,
+    register,
+    post_6,
+    post_7,
+    put_1,
+    put_2
 };
 
 

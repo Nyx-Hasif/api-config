@@ -60,9 +60,29 @@ const Sidebar = () => {
       link: "/exercise_4",
     },
     {
-      name: "Exercise 5 (POST): Basic Post API",
+      name: "Exercise 5 (POST): Basic Create Post API",
       icon: <FaRegNoteSticky className={"text-2xl"} />,
       link: "/exercise_5",
+    },
+    {
+      name: "Exercise 6 (POST): Create Post API using handleSubmit as async function",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_6",
+    },
+    {
+      name: "Exercise 7 (POST): LogIn/Register API",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_7",
+    },
+    {
+      name: "Exercise 8 (POST + GET): Create A Record",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_8",
+    },
+    {
+      name: "Exercise 9 (PUT): Update Data",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_9",
     },
   ];
 
