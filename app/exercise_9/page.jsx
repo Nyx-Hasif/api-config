@@ -49,7 +49,7 @@ const Page = () => {
     if(data){
         console.log('Data Retrieved! :,',data)
     }
-  })
+  },[data])
 
   return (
     <div className="flex flex-1 flex-col justify-start gap-10 h-screen overflow-auto items-center border-2 border-black">
