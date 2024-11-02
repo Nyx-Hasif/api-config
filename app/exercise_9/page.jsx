@@ -3,7 +3,7 @@ import { asset } from "@/public/asset";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
-const page = () => {
+const Page = () => {
   const [userId, setUserId] = useState("");
   const [name, setName] = useState("");
   const [data, setData] = useState(null); //klau data better letak null
@@ -94,4 +94,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
