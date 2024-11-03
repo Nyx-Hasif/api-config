@@ -2,7 +2,12 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["raw.githubusercontent.com", "openweathermap.org"],
+    domains: [
+      "raw.githubusercontent.com",
+      "openweathermap.org",
+      "fakestoreapi.com",
+      "via.placeholder.com",
+    ],
   },
 };
 

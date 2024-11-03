@@ -23,6 +23,9 @@ import post_6 from './post_6.png';
 import post_7 from './post_7.png';
 import put_1 from './put_1.png';
 import put_2 from './put_2.png';
+import put_3 from './put_3.png';
+import put_4 from './put_4.png';
+import put_5 from './put_5.png';
 
 export const asset = {
     fetch_1,
@@ -49,7 +52,10 @@ export const asset = {
     post_6,
     post_7,
     put_1,
-    put_2
+    put_2,
+    put_3,
+    put_4,
+    put_5
 };
 
 

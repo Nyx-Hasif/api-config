@@ -84,11 +84,31 @@ const Sidebar = () => {
       icon: <FaRegNoteSticky className={"text-2xl"} />,
       link: "/exercise_9",
     },
+    {
+      name: "Exercise 10 (GET + PUT): Get&Update Data Fakestore API",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_10",
+    },
+    {
+      name: "Exercise 11 (GET + PATCH): Get&Update Data Fakestore API",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_11",
+    },
+    {
+      name: "Exercise 12 (DELETE): Delete data",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_12",
+    },
+    {
+      name: "Exercise 13 CRUD: Create API and Database",
+      icon: <FaRegNoteSticky className={"text-2xl"} />,
+      link: "/exercise_13",
+    },
   ];
 
   return (
     <div
-      className={`overflow-hidden  flex flex-col border border-black h-[100vh] ${
+      className={`overflow-auto  flex flex-col border border-black h-screen scrollbar-hide ${
         isSidebarOpen ? "w-64" : "w-16"
       } transition-width duration-300 ease-in-out`}
     >
